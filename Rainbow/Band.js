@@ -1,4 +1,3 @@
-//class with all of the color box info
 class Band {
   
     constructor(x,y,w,h,color) {
@@ -9,7 +8,6 @@ class Band {
       this.color = color;
   }
 
-    //make the color boxes appear on canvas
     appear()
     {
       stroke("white");
